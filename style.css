@@ -1,0 +1,204 @@
+*{
+    font-family: Roboto, Oxygen, 'Open Sans', 'Helvetica Neue', sans-serif;
+    scroll-behavior: smooth;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+}
+#container{
+    background-color: #1F2937;
+    padding-bottom: 10%;
+}
+#logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.link{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 15px;
+    margin-left: 100px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+.link:hover, .link:focus, .link:active {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img{
+    width: 450px;
+    margin-top:30px;
+}
+h1{
+    font-size: 48px;
+    font-weight: 700;
+    color:#F9FAF8;
+}
+#content-container{
+    margin-top: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#left{
+    width: 40%;
+}
+
+#content-container p{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: -20px;
+    margin-bottom:30px;
+}
+.Btn {
+    padding: 10px 20px;
+    margin-top: 50px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #F9FAF8;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.Btn:hover, .Btn:focus, .Btn:active {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.info-container h1{
+    font-size: 36px;
+    font-weight: 700;
+    color:#1F2937;
+    width: 100%;
+    padding: 20px 0;
+}
+.cat{
+    width: 200px;
+    border: 5px solid #3882F6 ;
+    border-radius: 10px;
+}
+.info-container{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    text-align: center;
+    padding-bottom: 10%;
+}
+.info p{
+    width: 200px;
+    font-size: 14px;
+    color:gray;
+    text-align: center;
+    font-weight: lighter;
+}
+.images{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+}
+
+.Quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    text-align: center;
+    padding: 10%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.quote-container span{
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+   left:70%;
+}
+.signup{
+    width: 40%;
+    background-color: #3882F6 ;
+    border-radius: 5px;
+    border-radius: 10px;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10% auto;
+}
+.text h2 {
+    color: #F9FAF8;
+    font-weight: bolder;
+    margin-bottom: auto;
+}
+
+.text p {
+    margin-top: auto;
+    color: #E5E7EB;
+    font-size: 15px;
+}
+.Btn2{
+    padding: 10px 20px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: 3px solid #E5E7EB;
+    font-size: 18px;
+    font-weight: bold;
+    color:  #F9FAF8;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+.Btn2:hover, .Btn2:focus, .Btn2:active {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px 0;
+    text-align: center;
+}
